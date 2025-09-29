@@ -1,0 +1,57 @@
+<svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 630"
+            style={{ width: "100%", height: "100%" }}
+          >
+            <defs>
+              <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#a855f7" />
+                <stop offset="100%" stop-color="#ec4899" />
+              </linearGradient>
+              <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+                <feDropShadow
+                  dx="0"
+                  dy="30"
+                  stdDeviation="60"
+                  flood-color="#00000055"
+                />
+              </filter>
+            </defs>
+            <rect width="1200" height="630" fill="#020617" />
+            <rect
+              x="100"
+              y="100"
+              width="1000"
+              height="430"
+              rx="32"
+              fill="url(#grad)"
+              filter="url(#shadow)"
+            />
+            <g
+              fill="#0f172a"
+              font-family="'Inter', 'Segoe UI', sans-serif"
+              text-anchor="middle"
+            >
+              <text
+                x="600"
+                y="300"
+                font-size="82"
+                font-weight="600"
+                letter-spacing="18"
+              >
+                PHALIA.PK
+              </text>
+              <text
+                x="600"
+                y="380"
+                font-size="40"
+                letter-spacing="10"
+                fill="#e2e8f0"
+              >
+                COMING SOON
+              </text>
+            </g>
+            <circle cx="600" cy="180" r="70" fill="#f8fafc" opacity="0.15" />
+            <circle cx="360" cy="450" r="55" fill="#f8fafc" opacity="0.12" />
+            <circle cx="880" cy="430" r="45" fill="#f8fafc" opacity="0.18" />
+          </svg>
