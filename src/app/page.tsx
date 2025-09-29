@@ -15,9 +15,14 @@ export default function Home() {
           jump straight into what inspired it and get a head start with
           everything already live.
         </p>
-        <div className="flex flex-col items-center gap-3">
-          <div className="flex items-center gap-4 text-4xl">
-            <span aria-hidden="true" className="animate-bounce text-purple-200">👉</span>
+        <div className="flex flex-col items-center gap-4">
+          <div className="flex items-center gap-10 text-4xl">
+            <span
+              aria-hidden="true"
+              className="[animation:bounce-soft_1.6s_ease-in-out_infinite] [animation-delay:120ms] text-purple-200"
+            >
+              👉
+            </span>
             <a
               href="https://mbdin.cc?utm_source=phalia.pk"
               className="rounded-full bg-purple-500 px-10 py-4 text-2xl font-semibold tracking-tight text-slate-950 shadow-[0_15px_40px_-15px_rgba(168,85,247,0.8)] transition-transform duration-150 hover:scale-110 hover:bg-purple-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-purple-300"
@@ -26,7 +31,12 @@ export default function Home() {
             >
               Explore MBDin.cc ↗
             </a>
-            <span aria-hidden="true" className="animate-bounce text-purple-200">👈</span>
+            <span
+              aria-hidden="true"
+              className="[animation:bounce-soft_1.6s_ease-in-out_infinite] [animation-delay:360ms] text-purple-200"
+            >
+              👈
+            </span>
           </div>
           <p className="text-sm font-medium uppercase tracking-[0.3em] text-purple-200">
             Live now — new drops weekly
